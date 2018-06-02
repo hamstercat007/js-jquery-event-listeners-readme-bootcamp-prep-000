@@ -11,21 +11,17 @@ function frameIt() {
   });
 }
 
-// function pressIt() {
-//   $('#typing').on('keydown', function(key) {
-//     if (key.key == 'G'){
-//       alert("You have pressed the G key");
-//     }
-//   });
-// }
-
-function submitIt() {
-  
+function pressIt() {
+  $('#typing').on('keydown', function(key) {
+    if (key.key == 'G'){
+      alert("You have pressed the G key");
+    }
+  });
 }
 
-// $(document).ready(function(){
-//   // call functions here
-//   // getIt();
-//   // frameIt();
-//   // pressIt();
-// });
+$(document).ready(function(){
+  // call functions here
+  getIt();
+  frameIt();
+  pressIt();
+});

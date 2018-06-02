@@ -23,9 +23,9 @@ function submitIt() {
   
 }
 
-$(document).ready(function(){
-  // call functions here
-  // getIt();
-  // frameIt();
-  // pressIt();
-});
+// $(document).ready(function(){
+//   // call functions here
+//   // getIt();
+//   // frameIt();
+//   // pressIt();
+// });
